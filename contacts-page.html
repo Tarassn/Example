@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/contacts.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <label for="hamburger-checkbox">
+            <div class="navigation_hamburger">
+                <div class="navigation_hamburger-blocks"></div>
+                <div class="navigation_hamburger-blocks"></div>
+                <div class="navigation_hamburger-blocks"></div>
+            </div>
+        </label>
+        <input type="checkbox" id="hamburger-checkbox">
+        <div class="header_left-side">
+            <a href="index.html">
+                <div class="logo-img">
+                </div>
+            </a>
+            <div class="header_left-side_container">
+                <input type="search" class="header_left-side_search" id="search" placeholder=" Поиск..." size="18" />
+                <div class="header_left-side_icon-container">
+                    <span class="icon"><i class="fa fa-search fa-lg"></i></span>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <a class="navigation_link" href="test-catalogue.html">Каталог тестов</a>
+            <a class="navigation_link" href="index.html#partners">Партнеры</a>
+            <a class="navigation_link" href="#">О нас</a>
+            <a class="navigation_link" href="#">Контакты</a>
+            <div class="exit-button navigation_exit-button">
+                <label for="hamburger-checkbox">
+                    <i class="fas fa-times"></i>
+                </label>
+            </div>
+        </nav>
+        <div class="header_right-side">
+            <label for="login-checkbox">
+                <a class="navigation_link">Войти</a>
+            </label>
+            <label for="registration-checkbox">
+
+                <div class="button header_right-side_button">Зарегистрироваться</div>
+            </label>
+        </div>
+        <input type="checkbox" id="login-checkbox">
+        <div class="log-in_container">
+            <div class="log-in_form">
+                <div class="exit-button">
+                    <label for="login-checkbox">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <h2>АВТОРИЗАЦИЯ</h2>
+                <p>Введите, пожалуйста, свой логин и пароль</p>
+                <input type="text" class="login-input" placeholder=" Логин">
+                <input type="password" class="login-input" placeholder=" Пароль">
+                <br/>
+                <button class="button">Войти</button>
+            </div>
+        </div>
+        <label for="login-checkbox">
+            <div class="right-side-entrence-mobile">
+                <i class="fas fa-sign-in-alt"></i>
+            </div>
+        </label>
+        <input type="checkbox" id="registration-checkbox">
+        <div class="registration_container">
+            <div class="registration">
+                <div class="exit-button">
+                    <label for="registration-checkbox">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <h2>РЕГИСТРАЦИЯ</h2>
+                <p>Придумайте, пожалуйста, свой логин и пароль</p>
+                <input type="text" class="login-input" placeholder=" Логин">
+                <input type="password" class="login-input" placeholder=" Пароль">
+                <input type="password" class="login-input" placeholder=" Подтвердите пароль">
+                <br/>
+                <button class="button">Подтвердить</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="contacts-main">
+        <h2>Контакты</h2>
+        <br/>
+        <h4>Delta Beta Ltd.</h4>
+        <h4>Nordstrandveien 412</h4>
+           <h4>8012 Bodø, Norway</h4>
+        <h4><a class="email-contacts" href="mailto:delta-beta@beta.com">delta-beta@beta.com</a></h4>
+        <br/>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11423.033466967041!2d14.386206843064954!3d67.27957188253487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45df10f55b63f17d%3A0x8e785b93b25d3c53!2z0JHRg9C00LUsINCd0L7RgNCy0LXQs9C40Y8!5e0!3m2!1sru!2sua!4v1530931513327" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </main>
+
+    <footer>
+        <div class="footer_top">
+            <div class="footer_left-side">
+                <a href="index.html">
+                    <div class="logo-img">
+                    </div>
+                </a>
+            </div>
+            <nav class="navigation">
+                <a class="navigation_link" href="test-catalogue.html">Каталог тестов</a>
+                <a class="navigation_link" href="index.html#partners">Партнеры</a>
+                <a class="navigation_link" href="#">О нас</a>
+                <a class="navigation_link" href="#">Контакты</a>
+            </nav>
+            <div class="footer_right-side">
+                <div class="footer_icon-bg">
+                    <a href="https://facebook.com">
+                        <div class="footer_fb-icon"></div>
+                    </a>
+                </div>
+                <div class="footer_icon-bg">
+                    <a href="https://twitter.com">
+                        <div class="footer_twitter-icon"></div>
+                    </a>
+                </div>
+                <div class="footer_icon-bg">
+                    <a href="https://youtube.com">
+                        <div class="footer_youtube-icon"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <h4>2018 © Taras Chernysh. Все права сохраненны.</h4>
+        </div>
+    </footer>
+</div>
+</body>

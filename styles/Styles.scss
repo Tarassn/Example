@@ -1,0 +1,17 @@
+$color1: #f7f7f7;
+$color2: #019875;
+$color3: #8c8c8c;
+$font-color: #797979;
+$h2color: #282828;
+$grey2: #a5a5a5;
+$color-button: #019875;
+$modal-border: lightgray;
+$border-button: 20px;
+$h2font: 225%;
+$h4font: 85%;
+$main-padding: 30px 0 80px 0;
+
+@mixin buttonmix($color, $border){
+  background-color: $color;
+  border-radius: $border;
+}

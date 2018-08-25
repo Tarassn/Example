@@ -1,0 +1,23 @@
+{
+  "name": "exampleproject",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taras Chernysh",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {},
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarassn/Example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tarassn/Example/issues"
+  },
+  "homepage": "https://github.com/Tarassn/Example#readme"
+}

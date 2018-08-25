@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/test-catalogue.css" rel="stylesheet">
+    <script src="js/catalogue.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <label for="hamburger-checkbox">
+            <div class="navigation_hamburger">
+                <div class="navigation_hamburger-blocks"></div>
+                <div class="navigation_hamburger-blocks"></div>
+                <div class="navigation_hamburger-blocks"></div>
+            </div>
+        </label>
+        <input type="checkbox" id="hamburger-checkbox">
+        <div class="header_left-side">
+            <a href="index.html">
+                <div class="logo-img">
+                </div>
+            </a>
+            <div class="header_left-side_container">
+                <input type="search" class="header_left-side_search" id="search" placeholder=" Поиск..." size="18" />
+                <div class="header_left-side_icon-container">
+                    <span class="icon"><i class="fa fa-search fa-lg"></i></span>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <a class="navigation_link" href="#">Каталог тестов</a>
+            <a class="navigation_link" href="index.html#partners">Партнеры</a>
+            <a class="navigation_link" href="#">О нас</a>
+            <a class="navigation_link" href="contacts-page.html">Контакты</a>
+            <div class="exit-button navigation_exit-button">
+                <label for="hamburger-checkbox">
+                    <i class="fas fa-times"></i>
+                </label>
+            </div>
+        </nav>
+        <div class="header_right-side">
+            <label for="login-checkbox">
+                <a class="navigation_link">Войти</a>
+            </label>
+            <label for="registration-checkbox">
+
+                <div class="button header_right-side_button">Зарегистрироваться</div>
+            </label>
+        </div>
+        <input type="checkbox" id="login-checkbox">
+        <div class="log-in_container">
+            <div class="log-in_form">
+                <div class="exit-button">
+                    <label for="login-checkbox">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <h2>АВТОРИЗАЦИЯ</h2>
+                <p>Введите, пожалуйста, свой логин и пароль</p>
+                <input type="text" class="login-input" placeholder=" Логин">
+                <input type="password" class="login-input" placeholder=" Пароль">
+                <br/>
+                <button class="button">Войти</button>
+            </div>
+        </div>
+        <label for="login-checkbox">
+            <div class="right-side-entrence-mobile">
+                <i class="fas fa-sign-in-alt"></i>
+            </div>
+        </label>
+        <input type="checkbox" id="registration-checkbox">
+        <div class="registration_container">
+            <div class="registration">
+                <div class="exit-button">
+                    <label for="registration-checkbox">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+                <h2>РЕГИСТРАЦИЯ</h2>
+                <p>Придумайте, пожалуйста, свой логин и пароль</p>
+                <input type="text" class="login-input" placeholder=" Логин">
+                <input type="password" class="login-input" placeholder=" Пароль">
+                <input type="password" class="login-input" placeholder=" Подтвердите пароль">
+                <br/>
+                <button class="button">Подтвердить</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="test-catalogue-main">
+        <section class="test-catalogue-main_h2">
+            <h2>Каталог тестов</h2>
+        </section>
+        <div class="test-catalogue_main-container">
+            <div class="test-catalogue_main-container-filter">
+                <h4> Фильтр: </h4>
+                <label for="filter-checkbox-radio0">
+                    <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio0" checked>
+                    <div class="main-container-filter_checkbox">Все тесты</div>
+                </label>
+            <label for="filter-checkbox-radio1">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio1">
+                <div class="main-container-filter_checkbox">WEB Frontend</div>
+            </label>
+            <label for="filter-checkbox-radio2">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio2">
+                <div class="main-container-filter_checkbox">C# / .NET</div>
+            </label>
+            <label for="filter-checkbox-radio3">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio3">
+                <div class="main-container-filter_checkbox">Python</div>
+            </label>
+            <label for="filter-checkbox-radio4">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio4">
+                <div class="main-container-filter_checkbox">Java</div>
+            </label>
+            <label for="filter-checkbox-radio5">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio5">
+                <div class="main-container-filter_checkbox">Game Developer</div>
+            </label>
+            <label for="filter-checkbox-radio6">
+                <input type="radio" class="filter-checkbox-radio" name="filter-checkbox-radio" id="filter-checkbox-radio6">
+                <div class="main-container-filter_checkbox">QA Engineer</div>
+            </label>
+            </div>
+            <div class="test-catalogue_main-container-list">
+                <div class="main-container-list-box frontendTest" id="test1">
+                    <div class="main-container-list-box_icon">
+                    <i class="fab fa-js-square fa-5x"></i>
+                    </div>
+                    <div>
+                     <h2>Основы JavaScript </h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box javaTest" id="test2">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-java fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Основы Java</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box frontendTest" id="test3">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-js-square fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>JavaScript Advanced</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box pythonTest" id="test4">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-python fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Основы Python</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box frontendTest" id="test5">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-css3-alt fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>HTML,CSS</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box netTest" id="test6">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-hashtag fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Основы C#</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box pythonTest" id="test7">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-python fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Python Advanced</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box javaTest" id="test8">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-java fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Java Advanced</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box javaTest" id="test9">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-java fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Java Professional</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box unityTest" id="test10">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-cube fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Основы Unity 3D</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box javaTest" id="test11">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-java fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Java Professional</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box frontendTest" id="test12">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-js-square fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>JavaScript Professional</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box unityTest" id="test13">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-cube fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Unity 3D Advanced</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box unityTest" id="test14">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-cube fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Unity 3D Professional</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box qaTest" id="test15">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-quinscape fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Основы QA</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box qaTest" id="test16">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-quinscape fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>QA Professional</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box frontendTest" id="test17">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-js-square fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Node.js</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box frontendTest" id="test18">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-js-square fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Vue.js</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box javaTest" id="test19">
+                    <div class="main-container-list-box_icon">
+                        <i class="fab fa-java fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>Django</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box netTest" id="test20">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-hashtag fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>C# Advanced</h2>
+                    </div>
+                </div>
+                <div class="main-container-list-box netTest" id="test21">
+                    <div class="main-container-list-box_icon">
+                        <i class="fas fa-hashtag fa-5x"></i>
+                    </div>
+                    <div>
+                        <h2>C# Professional</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_top">
+            <div class="footer_left-side">
+                <a href="index.html">
+                    <div class="logo-img">
+                    </div>
+                </a>
+            </div>
+            <nav class="navigation">
+                <a class="navigation_link" href="#">Каталог тестов</a>
+                <a class="navigation_link" href="index.html#partners">Партнеры</a>
+                <a class="navigation_link" href="#">О нас</a>
+                <a class="navigation_link" href="contacts-page.html">Контакты</a>
+            </nav>
+            <div class="footer_right-side">
+                <div class="footer_icon-bg">
+                    <a href="https://facebook.com">
+                        <div class="footer_fb-icon"></div>
+                    </a>
+                </div>
+                <div class="footer_icon-bg">
+                    <a href="https://twitter.com">
+                        <div class="footer_twitter-icon"></div>
+                    </a>
+                </div>
+                <div class="footer_icon-bg">
+                    <a href="https://youtube.com">
+                        <div class="footer_youtube-icon"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <h4>2018 © Taras Chernysh. Все права сохраненны.</h4>
+        </div>
+    </footer>
+</div>
+</body>

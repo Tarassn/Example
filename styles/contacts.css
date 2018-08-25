@@ -1,0 +1,14 @@
+.contacts-main {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-contacts {
+  color: inherit;
+  font-style: italic;
+  cursor: alias;
+}
+
+/*# sourceMappingURL=contacts.css.map */
