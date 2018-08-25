@@ -482,7 +482,7 @@ footer{
   background-size: cover;
 }
 .footer_youtube-icon{
-  width: 35px
+  width: 35px;
   height: 26px;
   background-image: url("../images/Youtube color.png");
   background-size: cover;
@@ -627,7 +627,7 @@ footer{
 @media screen and (max-width: 512px){
   .review_right-image{
     height: 400px;
-    min-width: 96%;
+    min-width: 96%
   }
   .hero_textblock{
     width: 100%;
